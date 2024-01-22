@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+:root {
+    --amarelo: hsl(47, 88%, 63%);
+    --branco: hsl(0, 0%, 100%);
+    --cinza: hsl(0, 0%, 50%);
+    --preto: hsl(0, 0%, 7%);
+}
+
+body {
+    background-color: var(--amarelo);
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.card-content {
+    background-color: var(--branco);
+    width: 190px;
+    height: 270px;
+    border-radius: 6px;
+    text-align: center;
+    border: 1.3px solid #000;
+    box-shadow: 5px 5px #000;
+
+}
+
+.card-content img {
+    max-width: 87%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.rodape {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.card-textos {
+    margin: 2px 5px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.texto-botao {
+    font-family: 'Figtree';
+    background-color: var(--amarelo);
+    color: #000;
+    font-weight: 800;
+    font-size: 8px;
+    width: 50px;
+    height: 12px;
+    border-radius: 3px;
+    padding-top: 4px;
+    margin: 8px 7px 2px 7px;
+}
+
+.data {
+    font-size: 8px;
+    font-family: 'Figtree';
+    margin: 5px 7px;
+    font-weight: 600;
+}
+
+.titulo-card {
+    font-weight: 800;
+    font-size: 12px;
+    font-family: 'Figtree';
+    margin: 5px 7px;
+
+}
+
+.titulo-card:hover {
+    color: var(--amarelo);
+    cursor: pointer;
+}
+
+.texto {
+    color: var(--cinza);
+    font-size: 8px;
+    font-weight: 600;
+    font-family: 'Figtree';
+    margin: 5px 7px;
+    text-align: start;
+    line-height: 11px;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    margin: 0 7px;
+}
+
+.contact-card img {
+    max-width: 100%;
+    height: 20px;
+    width: 20px;
+    padding-right: 4px;
+}
+
+.nome {
+    font-family: 'Figtree';
+    font-weight: 800;
+    font-size: 9px;
+    padding-top: 6px;
+    
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    font-family: 'Figtree';
+    font-weight: 600;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
